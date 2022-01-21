@@ -5,6 +5,10 @@ from hyper_class.post_shock import *
 from hyper_class.post_fan import *
 from ambiance import Atmosphere
 
+#TODO Implement Jump Conditions in the Hypersonics Limit for both shock waves and expansion fans
+#TODO Implement pressure coefficient of blunt bodies
+#TODO Implement Viscous BL formulation (Prandtl)
+
 if __name__ == '__main__':
 
     # Ambient Data
