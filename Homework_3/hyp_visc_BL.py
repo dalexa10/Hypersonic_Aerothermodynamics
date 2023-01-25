@@ -179,12 +179,12 @@ def main():
 
     # Non dimensional parameters plotting section
 
-    plt.figure(1, figsize=(10, 6))
+    plt.figure(2, figsize=(10, 6))
     plt.plot(F[:, 1], eta, linewidth=1, label=(' $f\'$, velocity'), color='r')
     plt.plot(F[:, 3], eta, linewidth=1, label=('$g$, static temperature '), color='b')
     plt.plot(m, eta, linewidth=1, label=(' $m$, stagnation temperature '), color='g')
 
-    ax = plt.figure(1)
+    ax = plt.figure(2)
     plt.xlabel('Flow parameters')
     plt.ylabel(r'$\eta$')
     plt.xlim(0, 8)
